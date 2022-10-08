@@ -7,9 +7,16 @@ public class App {
 		SpacedLogger spaced = new SpacedLogger();
 		
 		asterisk.log("Blue");
+		
+		System.out.println();
+		
 		asterisk.error("Green");
 		
+		System.out.println();
 		spaced.log("Yellow");
+		
+		System.out.println();
+		
 		spaced.error("Orange");
 		
 		
